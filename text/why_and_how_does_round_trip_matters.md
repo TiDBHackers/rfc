@@ -10,7 +10,7 @@ Find out how the RPC round trips may affect the OLTP performance of TiDB.
 In the current architecture and implementation of The TiDB kernel, 
 the starting price for all operations is one RPC. Compared with some sharding
 system using sharding-middlewares and multiple MySQL instances, TiDB may have a 
-performance sometimes for OLTP workloads. So it would be helpful to find out 
+performance gap sometimes for OLTP workloads. So it would be helpful to find out 
 **how the RPC round trips affect the OLTP performance** and thus optimizations could 
 be done to reduce unnecessary distributed executions to improve the TiDB OLTP performance.
 
