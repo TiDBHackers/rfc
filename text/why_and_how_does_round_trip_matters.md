@@ -33,7 +33,7 @@ Consider such possibilities:
 optimized or even avoided.
 
 How does the TiDB may perform for benchmark tests like `TPC-C` or `Sysbench`? Is it necessary
-to optimize the RPC libary used in TiDB or is it worthy? Or is it a considerable option to merge
+to optimize the RPC libary used in TiDB or is it worthy? More aggressively is it a considerable option to merge
 the tidb server code into tikv as `shared-storage` would be introduced in the future as well as
 the tidb `session-manager`.
 
