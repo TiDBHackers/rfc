@@ -1,7 +1,9 @@
 # Why And How Does Round Trip Matters?
 
 Project Name: BetterTP
+
 Team Member: yuanjia zhang, xurui
+
 Project link: 
 - [go-tpc](https://github.com/qw4990/go-tpc/tree/bettertp-test)
 - [tidb](https://github.com/qw4990/tidb/tree/bettertp-test)
