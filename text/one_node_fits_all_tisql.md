@@ -39,10 +39,10 @@ enough, follow the `top-down desgin` and `bottom-up implementation` rule.
 ## Merge The Services Into One
 
 Basic idea is described in the following graph.
-![image](tisql.png)
+![image](../media/tisql.png)
 
 For the shared-storage architecture.
-![image](tisql_share.png)
+![image](../media/tisql_share.png)
 
 Merge all the components in TiDB into one, make it possible for furture re-design and code refactor.
 
@@ -74,14 +74,14 @@ Optimize the implementation from bottom-up, make it better for different becnhma
 
 #### CPU Scheduling
 
-![image](../worker.png)
+![image](../media/worker.png)
 
 #### Transaction & Log Engine
 
 We believe the parallel redo log processing and parallel log apply are better choices for OLTP performance. A single consensus groupd should be 
 able to use as much resources as it needs. 
 
-![image](../txn_log.png)
+![image](../media/txn_log.png)
 
 #### Storage Engine
 
