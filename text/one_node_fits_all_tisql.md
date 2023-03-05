@@ -31,7 +31,7 @@ In TiDB the tidb-server is implemented with `golang`, the tikv-server is impleme
 difficult for the developers to re-design and refactor the code as too many tech stacks are invovled. Escpecially `golang` is the biggest problem 
 with extreme performance requirement, it's impossible to control and predict the query latency in the tidb-server side.
 
-# Proposal & One Noe Fits All
+# Proposal & One Node Fits All
 
 Try to re-design the TiDB architecture, merge the existing service into one node, re-union the technique stacks, make the resources management granular 
 enough, follow the `top-down desgin` and `bottom-up implementation` rule.
