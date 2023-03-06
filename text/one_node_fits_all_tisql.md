@@ -36,6 +36,9 @@ with extreme performance requirement, it's impossible to control and predict the
 Try to re-design the TiDB architecture, merge the existing service into one node, re-union the technique stacks, make the resources management granular 
 enough, follow the `top-down desgin` and `bottom-up implementation` rule.
 
+References:
+- OceanBase v4.0 [link](https://mp.weixin.qq.com/s/qYUESs81Fw67WeSlnDvCig) [Video](http://blog.itpub.net/70009762/viewspace-2931176/)
+
 ## Merge The Services Into One
 
 Basic idea is described in the following graph.
